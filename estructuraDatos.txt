@@ -1,0 +1,14 @@
+Estructura de los datos para las marcas y productos.
+
+[
+    {
+        pais: String,
+        marca: {
+            title: String,
+            backgroundImage: String,
+            count: Int,
+            valorU: Int,
+            info: String
+        }
+    }
+]

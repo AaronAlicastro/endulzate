@@ -1,0 +1,60 @@
+#cortinaIfoProduct{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2000;
+    background: #ff00b7a0;
+}
+@keyframes abrirCortina{
+    from{
+        height: 0;
+    }
+    to{
+        height: 100vh;
+    }
+}
+#contenido > * { color: var(--colorTextoSecundario); }
+#contenido{
+    display: none;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+#contenido > div:nth-child(1){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#contenido > div:nth-child(1) > span{
+    padding: 9px;
+    border-radius: 25% 75% 29% 71% / 43% 34% 66% 57% ;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+}
+#contenido > div:nth-child(1) > span:hover{
+    background: var(--colorTextoSecundario);
+    color: var(--colorTextoPrincipal);
+}
+#contenido > div:nth-child(1) > h1{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+#contenido > ul{
+    width: 100%;
+    height: fit-content;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+#contenido > ul > li{
+    font-size: 24px;
+    margin: 20px 0;
+}
+#contenido > ul > li > span{
+    font-weight: bold;
+}

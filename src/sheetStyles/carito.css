@@ -1,0 +1,83 @@
+#divCarrito{
+    margin-bottom: 125px;
+}
+#divCarrito h1{
+    text-align: center;
+    font-size: 48px;
+}
+.filasProducto{
+    display: flex;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.filaPar{
+    background: rgb(255, 255, 255);
+}
+.filaImpar{
+    background: #ff00b762;
+}
+.controlProducto{
+    flex-grow: 1;
+}
+.controlProducto > h3{
+    font-size: 24px;
+    cursor: pointer;
+}
+.controlProducto > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+.controlProducto > div > span{
+    margin-left: 25px;
+    background: rgba(0, 0, 0, 0.686);
+    color: var(--colorTextoSecundario);
+    padding: 15px 8px;
+    border-radius: 8px;
+}
+.precioTotal{
+    display: grid;
+    place-content: center;
+    width: fit-content;
+}
+.precioTotal > h6{
+    font-size: 16px;
+    text-align: center;
+    margin: 7px 0;
+}
+.precioTotal > span{
+    letter-spacing: 3px;
+}
+#total_total{
+    position: fixed;
+    bottom: 0;
+    background: var(--fondoEtiqueta);
+    width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#total_total > span{
+    font-size: 26px;
+    font-weight: bold;
+}
+#total_total > span:nth-child(2){
+    letter-spacing: 3px;
+}
+#total_total > div{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 640px){
+    #total_total{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #divCarrito{
+        margin-bottom: 215px;
+    }
+}

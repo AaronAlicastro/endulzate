@@ -1,0 +1,10 @@
+#appDiv{
+    margin-top: 115px;
+}
+#gridProductsCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 360px);
+    grid-template-rows: repeat(auto-fill, 420px);
+    justify-content: center;
+    align-items: center;
+}
