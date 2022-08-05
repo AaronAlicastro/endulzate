@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/endulzate/static/css/main.efce597e.css",
+    "main.js": "/endulzate/static/js/main.90f80b34.js",
+    "static/media/logo.png": "/endulzate/static/media/logo.fc6a4c60589ad483f62a.png",
+    "index.html": "/endulzate/index.html",
+    "main.efce597e.css.map": "/endulzate/static/css/main.efce597e.css.map",
+    "main.90f80b34.js.map": "/endulzate/static/js/main.90f80b34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efce597e.css",
+    "static/js/main.90f80b34.js"
+  ]
+}
