@@ -12,8 +12,8 @@ function InfoProducto(props) {
     return (
         <div id="cortinaIfoProduct">
             <div id="contenido">
-                <div onClick={() => props.onClick(false)}>
-                    <span>
+                <div>
+                    <span onClick={() => props.onClick(false)}>
                         <IconContext.Provider value={{ size:"2.5em" }}>
                             <FaTimes />
                         </IconContext.Provider>

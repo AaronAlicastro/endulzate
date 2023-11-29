@@ -1,23 +1,24 @@
 #cortinaIfoProduct{
     display: none;
     position: fixed;
-    top: 0;
+    top: -100vh;
     width: 100vw;
+    height: 100vh;
     z-index: 2000;
-    background: #ff00b7a0;
+    background: #ff00b7ea;
+    overflow-y: auto;
 }
 @keyframes abrirCortina{
     from{
-        height: 0;
+        top: -100vh;
     }
     to{
-        height: 100vh;
+        top: 0;
     }
 }
 #contenido > * { color: var(--colorTextoSecundario); }
 #contenido{
     display: none;
-    height: 100%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +50,7 @@
     width: 100%;
     height: fit-content;
     padding: 20px 50px;
+    padding-bottom: 0;
     box-sizing: border-box;
 }
 #contenido > ul > li{
