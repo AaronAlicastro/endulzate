@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/endulzate/static/css/main.efce597e.css",
-    "main.js": "/endulzate/static/js/main.90f80b34.js",
+    "main.css": "/endulzate/static/css/main.64dbe151.css",
+    "main.js": "/endulzate/static/js/main.6f9b3ecf.js",
     "static/media/logo.png": "/endulzate/static/media/logo.fc6a4c60589ad483f62a.png",
     "index.html": "/endulzate/index.html",
-    "main.efce597e.css.map": "/endulzate/static/css/main.efce597e.css.map",
-    "main.90f80b34.js.map": "/endulzate/static/js/main.90f80b34.js.map"
+    "main.64dbe151.css.map": "/endulzate/static/css/main.64dbe151.css.map",
+    "main.6f9b3ecf.js.map": "/endulzate/static/js/main.6f9b3ecf.js.map"
   },
   "entrypoints": [
-    "static/css/main.efce597e.css",
-    "static/js/main.90f80b34.js"
+    "static/css/main.64dbe151.css",
+    "static/js/main.6f9b3ecf.js"
   ]
 }
